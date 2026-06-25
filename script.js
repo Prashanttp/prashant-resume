@@ -114,7 +114,7 @@ if (window.matchMedia('(pointer: fine)').matches) {
 console.log(`
 %c Prashant Pandey — Portfolio
 %c Built with plain HTML/CSS/JS — no frameworks, no fluff.
-%c Let's connect: neeyanmashu@gmail.com
+%c Let's connect: p.p6112004@gmail.com
 `,
   'color: #7C3AED; font-size: 1.2rem; font-weight: 700;',
   'color: #8888AA; font-size: 0.85rem;',
