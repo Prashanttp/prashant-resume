@@ -27,7 +27,7 @@ document.querySelectorAll('.mob-link').forEach(link => {
 });
 
 // ── Scroll-reveal ─────────────────────────────────────────
-const revealElements = document.querySelectorAll('.section-label, .section-title, .about-text, .about-card, .skill-group, .project-card, .edu-card, .ach-card, .contact-card, .contact-intro');
+const revealElements = document.querySelectorAll('.section-label, .section-title, .about-text, .about-card, .exp-card, .skill-group, .project-card, .edu-card, .ach-card, .contact-card, .contact-intro');
 
 revealElements.forEach((el, i) => {
   el.classList.add('reveal');
@@ -114,7 +114,7 @@ if (window.matchMedia('(pointer: fine)').matches) {
 console.log(`
 %c Prashant Pandey — Portfolio
 %c Built with plain HTML/CSS/JS — no frameworks, no fluff.
-%c Let's connect: p.p6112004@gmail.com
+%c Let's connect: prashantpandeyjava@gmail.com
 `,
   'color: #7C3AED; font-size: 1.2rem; font-weight: 700;',
   'color: #8888AA; font-size: 0.85rem;',

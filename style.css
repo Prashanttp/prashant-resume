@@ -239,6 +239,21 @@ body {
   letter-spacing: -0.03em; line-height: 1.15; margin-bottom: 56px;
 }
 
+/* ── EXPERIENCE ─────────────────────────────────────── */
+.exp-card {
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-xl);
+  padding: 36px; display: flex; flex-direction: column; gap: 24px;
+  transition: border-color var(--transition), transform var(--transition), box-shadow var(--transition);
+}
+.exp-card:hover { border-color: var(--border-hover); transform: translateY(-3px); box-shadow: 0 20px 60px rgba(124,58,237,0.12); }
+.exp-header { display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 16px; border-bottom: 1px solid var(--border); padding-bottom: 20px; }
+.exp-company { font-size: 1.35rem; font-weight: 700; color: var(--text); letter-spacing: -0.02em; }
+.exp-role { font-size: 1rem; color: var(--accent); font-weight: 600; margin-top: 2px; }
+.exp-period-badge { font-family: var(--font-mono); font-size: 0.8rem; color: #4ADE80; background: rgba(34,197,94,0.1); border: 1px solid rgba(34,197,94,0.2); padding: 4px 14px; border-radius: 99px; white-space: nowrap; }
+.exp-bullets { display: flex; flex-direction: column; gap: 12px; }
+.exp-bullet { display: flex; gap: 12px; font-size: 0.93rem; color: var(--text-muted); }
+.exp-bullet-icon { color: var(--accent); font-size: 0.8rem; margin-top: 4px; flex-shrink: 0; }
+
 /* ── ABOUT ──────────────────────────────────────────── */
 .about-grid { display: grid; grid-template-columns: 1fr 340px; gap: 60px; align-items: start; }
 .about-text p { color: var(--text-muted); margin-bottom: 18px; font-size: 1rem; }
